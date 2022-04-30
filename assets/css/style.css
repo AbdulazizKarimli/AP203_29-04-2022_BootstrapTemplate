@@ -1,0 +1,124 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header .navbar-brand {
+  display: flex;
+}
+
+header .logo-text {
+  font-size: 25px;
+  padding-left: 10px;
+  color: #012970;
+  font-weight: 700;
+}
+
+header .navbar-nav li {
+  padding-left: 15px;
+}
+
+header .navbar-nav li a {
+  color: #012970;
+  font-weight: 600;
+}
+
+header .navbar-nav li .btn {
+  background-color: #4154f1;
+  color: #fff;
+  padding: 8px 20px !important;
+  transition: all .3s;
+}
+
+header .navbar-nav li .btn:hover {
+  opacity: 0.8;
+}
+
+#intro {
+  padding: 80px 0;
+}
+
+#intro .intro-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro .intro-content h1 {
+  font-size: 48px;
+  color: #012970;
+  margin-bottom: 20px;
+}
+
+#intro .intro-content h2 {
+  font-size: 26px;
+  color: #444444;
+  margin-bottom: 20px;
+}
+
+#intro .intro-content .btn-box .btn {
+  background-color: #4154f1;
+  color: #fff;
+  padding: 8px 30px !important;
+  box-shadow: 0 5px 30px rgba(65, 84, 241, 0.4);
+  font-weight: 600;
+}
+
+#intro .intro-content .btn-box .btn i {
+  transition: all 0.3s;
+}
+
+#intro .intro-content .btn-box .btn:hover i {
+  transform: translateX(5px);
+}
+
+#about .about-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+#about .about-content .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+#about .about-content h3 {
+  font-size: 16px;
+  color: #4154f1;
+  font-weight: 700;
+}
+
+#about .about-content h2 {
+  font-size: 24px;
+  color: #012970;
+  margin: 8px 0;
+}
+
+#about .about-content p {
+  color: #444444;
+  font-size: 16px;
+  margin: 15px 0 30px;
+}
+
+#about .about-content .btn {
+  background-color: #4154f1;
+  color: #fff;
+  padding: 10px 35px !important;
+  box-shadow: 0 5px 30px rgba(65, 84, 241, 0.4);
+  font-weight: 600;
+}
+
+#about .about-content .btn i {
+  transition: all 0.3s;
+}
+
+#about .about-content .btn:hover i {
+  transform: translateX(5px);
+}
